@@ -7,3 +7,5 @@ RUN sudo apt-get install -t jessie-backports openjdk-8-jdk
 
 # Screenshot tool
 RUN sudo apt-get install scrot
+
+RUN sudo npm install -g npm@latest
